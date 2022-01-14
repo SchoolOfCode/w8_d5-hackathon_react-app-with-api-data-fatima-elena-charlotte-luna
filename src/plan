@@ -9,8 +9,10 @@ Start Css (if we have time)
 To Do:
 
 Build components: To create a button that generates a random number onclick.
-<button onClick></button> inside will include the function so that it works when clicked.
+<button onClick></button> inside will include the function so that it works when clicked. - DONE
 
 Function to make click;
 Click will generate a random number from 1-123  math.random
-This will retun the random number. Will console log and if works a random number will come up. 
+This will retun the random number. Will console log and if works a random number will come up. - DONE
+
+
