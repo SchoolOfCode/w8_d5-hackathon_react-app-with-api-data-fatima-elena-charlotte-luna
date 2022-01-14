@@ -3,13 +3,16 @@ import React, {useState, useEffect} from "react";
 function Button(){
 
   const [toggle, setToggle] = useState(false)
+  const [newFox, setFox] = useState("")
 
   useEffect(()=>{
     async function findFoxImage() {
     const promise = await fetch (`https://randomfox.ca/floof/`);
     const data = await promise.json();
+    let imageFox = data.image;
+    setFox(imageFox);
     
-    console.log(data)
+    //console.log(data)
     //let image = document.createElement("img")
     }
     findFoxImage()
@@ -36,6 +39,7 @@ function Button(){
   return (
    <>
 <button onClick = {handleClick}>Click</button>
+<img src= {newFox} alt="Fox" />
   </>
   )
 }
