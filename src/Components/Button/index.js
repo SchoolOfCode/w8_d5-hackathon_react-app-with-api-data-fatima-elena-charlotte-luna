@@ -38,7 +38,7 @@ function Button(){
 
   return (
    <>
-<button onClick = {handleClick}>Click</button>
+<button onClick = {handleClick}>View a Fox</button>
 <img src= {newFox} alt="Fox" />
   </>
   )
