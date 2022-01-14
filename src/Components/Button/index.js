@@ -10,7 +10,7 @@ const promise = await fetch (`https://randomfox.ca//images//${id}.jpg`);
 const data = await promise.json();
 setId(data)
 console.log(data)
-nlet image = document.createElement("img")
+//let image = document.createElement("img")
     }
     findFoxImage()
   }
