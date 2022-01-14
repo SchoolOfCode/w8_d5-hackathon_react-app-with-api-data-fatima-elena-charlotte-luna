@@ -1,0 +1,16 @@
+We are going to build a website, that has a button 
+When the button is clicked it creates a random number
+Random number generates a picture. The random number that is generated will be used as a prop for the Fetch.
+Picture will come up on the browser.
+
+Attempt to deploy to Netifly
+Start Css (if we have time)
+
+To Do:
+
+Build components: To create a button that generates a random number onclick.
+<button onClick></button> inside will include the function so that it works when clicked.
+
+Function to make click;
+Click will generate a random number from 1-123  math.random
+This will retun the random number. Will console log and if works a random number will come up. 
